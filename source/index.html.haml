@@ -1,0 +1,54 @@
+---
+title: Медицинские классы
+---
+
+%header
+  #left-header-image
+    = image_tag 'adenine.png'
+  %h1 Медико-биологические классы школы №1253
+  #right-header-image
+    = image_tag 'heart.png'
+
+%main.container-fluid
+
+  #navigation-and-notice-board.row
+    .col-md-6
+      .row
+        #main-navigation.col-md-7.col-md-offset-2
+          .main-navigation-element
+            %button.main-navigation-button{:onclick => "location.href='about.html'"}
+              %span.main-navigation-icon.fa.fa-question.fa-3x
+              %span.main-navigation-text
+                %a{:href => "www.google.com"} О классах
+
+          .main-navigation-element
+            %button.main-navigation-button
+              %span.main-navigation-icon.fa.fa-pencil.fa-3x
+              %span.main-navigation-text Поступающим
+
+          .main-navigation-element
+            %button.main-navigation-button
+              %span.main-navigation-icon.fa.fa-mortar-board.fa-3x
+              %span.main-navigation-text Ученикам
+
+    .col-md-6
+      #notice-board-container
+        %h2 Доска объявлений
+        #notice-board
+          %ul
+            %li
+              %a{:href => "#"}
+                %h2 Подготовительные курсы
+                %p Объявляется набор на подготовительные курсы для учащихся 9-х классов московских школ.
+            %li
+              %a{:href => "#"}
+                %h2 Заголовок
+                %p Текст объявления
+            %li
+              %a{:href => "#"}
+                %h2 Заголовок
+                %p Текст объявления
+
+%hr
+
+

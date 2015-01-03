@@ -1,0 +1,262 @@
+/* line 3, /vagrant/1253med/source/stylesheets/all.css.scss */
+html, body {
+  height: 100%; }
+
+/* line 7, /vagrant/1253med/source/stylesheets/all.css.scss */
+html {
+  font-size: 16px; }
+
+/* line 11, /vagrant/1253med/source/stylesheets/all.css.scss */
+body {
+  font-size: 62.5%; }
+
+/* line 15, /vagrant/1253med/source/stylesheets/all.css.scss */
+p {
+  font-size: 1.5em; }
+
+/* line 19, /vagrant/1253med/source/stylesheets/all.css.scss */
+header {
+  background: url("../images/blackboard.jpg");
+  background-size: cover;
+  height: 200px; }
+  /* line 23, /vagrant/1253med/source/stylesheets/all.css.scss */
+  header #logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url("../images/logo.png");
+    background-size: contain;
+    /* background-image: url('logo.png'); */ }
+  /* line 31, /vagrant/1253med/source/stylesheets/all.css.scss */
+  header h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3em;
+    float: left;
+    margin: 0;
+    padding-top: 2em;
+    padding-left: 10%;
+    color: white; }
+
+/* NAVIGATION IN THE HEADER  */
+/* line 44, /vagrant/1253med/source/stylesheets/all.css.scss */
+.header-nav {
+  height: 100px;
+  position: relative; }
+
+/* line 49, /vagrant/1253med/source/stylesheets/all.css.scss */
+.navlinks-left, .navlinks-right {
+  /* width: 200px; */
+  position: absolute;
+  bottom: 0; }
+  /* line 53, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .navlinks-left ul, .navlinks-right ul {
+    list-style: none;
+    display: inline-block; }
+    /* line 56, /vagrant/1253med/source/stylesheets/all.css.scss */
+    .navlinks-left ul li, .navlinks-right ul li {
+      display: inline; }
+      /* line 58, /vagrant/1253med/source/stylesheets/all.css.scss */
+      .navlinks-left ul li a, .navlinks-right ul li a {
+        color: white;
+        font-size: 1.4em; }
+        /* line 61, /vagrant/1253med/source/stylesheets/all.css.scss */
+        .navlinks-left ul li a:hover, .navlinks-right ul li a:hover {
+          color: #414152; }
+
+/* line 69, /vagrant/1253med/source/stylesheets/all.css.scss */
+.navlinks-right {
+  right: 0; }
+
+/* line 73, /vagrant/1253med/source/stylesheets/all.css.scss */
+#left-header-image {
+  float: left;
+  height: 80%;
+  margin-top: 1em;
+  margin-left: 2%; }
+  /* line 78, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #left-header-image img {
+    max-height: 100%; }
+
+/* line 83, /vagrant/1253med/source/stylesheets/all.css.scss */
+#right-header-image {
+  float: right;
+  height: 90%;
+  margin-top: 1em;
+  margin-right: 2em; }
+  /* line 88, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #right-header-image img {
+    max-height: 100%; }
+
+/* line 93, /vagrant/1253med/source/stylesheets/all.css.scss */
+#navigation-and-notice-board {
+  margin-top: 2em; }
+
+/* line 97, /vagrant/1253med/source/stylesheets/all.css.scss */
+#main-navigation {
+  margin-top: 7%; }
+
+/* line 101, /vagrant/1253med/source/stylesheets/all.css.scss */
+.main-navigation-element {
+  font-size: 2em;
+  margin-bottom: 2em;
+  text-align: center; }
+  /* line 105, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .main-navigation-element p {
+    display: inline;
+    margin: 1em 0; }
+
+/* line 111, /vagrant/1253med/source/stylesheets/all.css.scss */
+.navigation-icon {
+  position: relative;
+  left: -.5em; }
+
+/* line 117, /vagrant/1253med/source/stylesheets/all.css.scss */
+#notice-board {
+  background: #666;
+  color: #fff; }
+  /* line 120, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #notice-board h2, #notice-board p {
+    font-size: 100%;
+    font-weight: normal; }
+  /* line 124, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #notice-board ul, #notice-board li {
+    list-style: none; }
+  /* line 127, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #notice-board ul {
+    overflow: hidden;
+    padding: 3em; }
+  /* line 131, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #notice-board ul li a {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    height: 15em;
+    width: 15em;
+    padding: 1em;
+    /* Firefox */
+    -moz-box-shadow: 5px 5px 7px #212121;
+    /* Safari+Chrome */
+    -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    /* Opera */
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+    -moz-transition: -moz-transform .15s linear;
+    -o-transition: -o-transform .15s linear;
+    -webkit-transition: -webkit-transform .15s linear; }
+  /* line 149, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #notice-board ul li {
+    margin: 0.5em;
+    float: left; }
+  /* line 153, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #notice-board ul li h2 {
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 10px; }
+  /* line 158, /vagrant/1253med/source/stylesheets/all.css.scss */
+  #notice-board ul li a:hover, #notice-board ul li a:focus {
+    -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position: relative;
+    z-index: 5; }
+
+/* line 170, /vagrant/1253med/source/stylesheets/all.css.scss */
+.main-navigation-button {
+  background: none;
+  width: 350px;
+  border: none;
+  transition: all 0.25s ease; }
+  /* line 175, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .main-navigation-button .main-navigation-icon {
+    width: 20%;
+    display: inline-block; }
+  /* line 179, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .main-navigation-button .main-navigation-text {
+    display: inline-block;
+    height: 100%;
+    width: 75%;
+    padding-left: 2em;
+    text-align: left; }
+  /* line 186, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .main-navigation-button:hover, .main-navigation-button:active {
+    color: #E62E00;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25); }
+
+/* THIS IS ABOUT PAGE  */
+/* line 196, /vagrant/1253med/source/stylesheets/all.css.scss */
+#carousel-student-photos-container {
+  width: 100%;
+  max-width: 1200;
+  padding-top: 2em;
+  background: url("../images/projector-screen.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+/* line 205, /vagrant/1253med/source/stylesheets/all.css.scss */
+#carousel-student-photos {
+  width: 80%;
+  max-width: 1060px;
+  margin: auto; }
+
+/* line 212, /vagrant/1253med/source/stylesheets/all.css.scss */
+.face {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%; }
+
+/* line 221, /vagrant/1253med/source/stylesheets/all.css.scss */
+.teacher {
+  margin: 2em 0; }
+  /* line 223, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .teacher .teacher-face {
+    text-align: center; }
+  /* line 226, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .teacher .teacher-intro-last-name {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; }
+  /* line 232, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .teacher .teacher-intro-first-name {
+    font-size: 1.5em;
+    text-align: center; }
+  /* line 236, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .teacher .teacher-intro-subject {
+    font-size: 1.2em;
+    text-align: center; }
+
+/* line 242, /vagrant/1253med/source/stylesheets/all.css.scss */
+#textbooks-menu {
+  font-size: 1.2em; }
+
+/* line 246, /vagrant/1253med/source/stylesheets/all.css.scss */
+#textbooks {
+  margin-top: 1em; }
+
+/* line 250, /vagrant/1253med/source/stylesheets/all.css.scss */
+.textbook {
+  margin: 0.5em 0;
+  text-align: center; }
+
+/* line 255, /vagrant/1253med/source/stylesheets/all.css.scss */
+.textbook-cover {
+  max-width: 250px;
+  display: inline-block; }
+  /* line 258, /vagrant/1253med/source/stylesheets/all.css.scss */
+  .textbook-cover img {
+    width: 100%; }
+
+/* line 263, /vagrant/1253med/source/stylesheets/all.css.scss */
+.textbook-title {
+  margin-top: 0.5em;
+  font-weight: bold;
+  text-align: left; }
+
+/* line 269, /vagrant/1253med/source/stylesheets/all.css.scss */
+.textbook-authors {
+  text-align: left; }

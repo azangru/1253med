@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>О классах</title>
+    
+    <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="javascripts/all.js" type="text/javascript"></script>
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body class="about">
+    <header class='header-nav'>
+  <div class='navlinks-left'>
+    <ul class='nav nav-pills'>
+      <li>
+        <a href="/">На главную</a>
+      </li>
+    </ul>
+  </div>
+  <div class='navlinks-right'>
+    <ul class='nav nav-pills'>
+      <li>
+        <a href='#'>Учителя</a>
+      </li>
+      <li>
+        <a href='#'>Учебники</a>
+      </li>
+      <li>
+        <a href='#'>Адрес</a>
+      </li>
+    </ul>
+  </div>
+</header>
+<div class='container-fluid'>
+  <div class='container'>
+    <div id='carousel-student-photos-container'>
+      <div class='carousel slide' data-ride='carousel' id='carousel-student-photos'>
+        <!-- Indicators -->
+        <ol class='carousel-indicators'>
+          <li class='active' data-slide-to='0' data-target='#carousel-example-generic'></li>
+          <li data-slide-to='1' data-target='#carousel-example-generic'></li>
+          <li data-slide-to='2' data-target='#carousel-example-generic'></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class='carousel-inner'>
+          <div class='item active'>
+            <img src='images/carousel-1.jpg'>
+          </div>
+          <div class='item'>
+            <img src='images/carousel-2.jpg'>
+          </div>
+          <div class='item'>
+            <img src='images/carousel-3.jpg'>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class='left carousel-control' data-slide='prev' href='#carousel-student-photos' role='button'>
+          <span class='glyphicon glyphicon-chevron-left'></span>
+        </a>
+        <a class='right carousel-control' data-slide='next' href='#carousel-student-photos' role='button'>
+          <span class='glyphicon glyphicon-chevron-right'></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='container'>
+  <h2>О классах</h2>
+  <p>Вот уже без малого двадцать лет в нашей школе — одном из старейших образовательных учреждений Москвы, имеющих статус школы с углубленным изучением иностранного языка, — существуют медицинские классы: в 1995 году она стала официальным партнером Первого московского государственного медицинского университета имени И. М. Сеченова (в ту пору — Московской медицинской академии им. Сеченова). В рамках программы в школе формируются 8—9 классы ранней профилизации с углубленным изучением биологии и химии и 10—11 классы медико-биологического профиля. Обучение по биологии и химии в профильных классах ведется по программам и учебным пособиям, разработанным сотрудниками кафедр 1-го МГМУ им. Сеченова; университетские преподаватели читают лекции по биологии и химии и контролирует успеваемость каждого ученика. Количество учебных часов по профильным предметам увеличено, что позволяет уделять достаточно много времени и подготовке к сдаче Единого государственного экзамена, и профессиональной ориентации учащихся.</p>
+  <hr>
+  <h2>Учителя</h2>
+  <div class='teachers-row row'>
+    <div class='teacher col-md-3'>
+      <div class='teacher-face'>
+        <img class='face' src='images/teachers/azova-small.jpg'>
+      </div>
+      <div class='teacher-intro'>
+        <div class='teacher-intro-last-name'>
+          Азова
+        </div>
+        <div class='teacher-intro-first-name'>
+          Наталия Львовна
+        </div>
+        <div class='teacher-intro-subject'>
+          куратор профиля,
+          <br>
+          учитель химии
+        </div>
+      </div>
+    </div>
+    <div class='teacher col-md-3'>
+      <div class='teacher-face'>
+        <img class='face' src='images/teachers/aigina-small.jpg'>
+      </div>
+      <div class='teacher-intro'>
+        <div class='teacher-intro-last-name'>
+          Аигина
+        </div>
+        <div class='teacher-intro-first-name'>
+          Екатерина Вячеславовна
+        </div>
+        <div class='teacher-intro-subject'>
+          учитель географии
+        </div>
+      </div>
+    </div>
+    <div class='teacher col-md-3'>
+      <div class='teacher-face'>
+        <img class='face' src='images/teachers/andreeva-small.jpg'>
+      </div>
+      <div class='teacher-intro'>
+        <div class='teacher-intro-last-name'>
+          Андреева
+        </div>
+        <div class='teacher-intro-first-name'>
+          Ирина Юрьевна
+        </div>
+        <div class='teacher-intro-subject'>
+          учитель русского языка
+          <br>
+          и литературы
+        </div>
+      </div>
+    </div>
+    <div class='teacher col-md-3'>
+      <div class='teacher-face'>
+        <img class='face' src='images/teachers/artjuhovskaya-small.jpg'>
+      </div>
+      <div class='teacher-intro'>
+        <div class='teacher-intro-last-name'>
+          Артюховская
+        </div>
+        <div class='teacher-intro-first-name'>
+          Инга Владимировна
+        </div>
+        <div class='teacher-intro-subject'>
+          учитель русского языка
+          <br>
+          и литературы
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='teachers-row row'>
+    <div class='teacher col-md-3'>
+      <div class='teacher-face'>
+        <img class='face' src='images/teachers/baranova-small.jpg'>
+      </div>
+      <div class='teacher-intro'>
+        <div class='teacher-intro-last-name'>
+          Баранова
+        </div>
+        <div class='teacher-intro-first-name'>
+          Татьяна Аркадьевна
+        </div>
+        <div class='teacher-intro-subject'>
+          учитель английского языка
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <h2>Учебники</h2>
+  <ul class='nav nav-tabs nav-justified' id='textbooks-menu' role='tablist'>
+    <li class='active'>
+      <a href='#'>Химия</a>
+    </li>
+    <li>
+      <a href='#'>Биология</a>
+    </li>
+    <li>
+      <a href='#'>Английский язык</a>
+    </li>
+    <li>
+      <a href='#'>Математика</a>
+    </li>
+    <li>
+      <a href='#'>Русский язык</a>
+    </li>
+  </ul>
+  <div id='textbooks'>
+    <div id='textbooks-chemistry'>
+      <div class='row'>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/programma8-11.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Программа курса химии для 8–11 классов общеобразовательных учреждений
+          </div>
+          <div class='textbook-authors'>
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунин, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;И.&nbsp;Теренин. Москва: Дрофа, 2008
+          </div>
+        </div>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/chimia8.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Химия 8 класс: учебник для общеобразовательных учреждений
+          </div>
+          <div class='textbook-authors'>
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;В.&nbsp;Лунин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+          </div>
+        </div>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/chimia9.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Химия 9 класс: учебник для общеобразовательных учреждений
+          </div>
+          <div class='textbook-authors'>
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;В.&nbsp;Лунин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/chimia10.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Химия 10 класс. Профильный уровень
+          </div>
+          <div class='textbook-authors'>
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;И.&nbsp;Теренин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+          </div>
+        </div>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/chimia11.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Химия 11 класс. Профильный уровень
+          </div>
+          <div class='textbook-authors'>
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;И.&nbsp;Теренин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+          </div>
+        </div>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/zadachnik-8.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Задачник по химии. 8 класс.
+          </div>
+          <div class='textbook-authors'>
+            Н.&nbsp;Е.&nbsp;Кузнецова, А.&nbsp;Н.&nbsp;Левкин. Москва: Вентана-Граф, 2011.
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/zadachnik-9.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Задачник по химии. 9 класс.
+          </div>
+          <div class='textbook-authors'>
+            Н.&nbsp;Е.&nbsp;Кузнецова, А.&nbsp;Н.&nbsp;Левкин. Москва: Вентана-Граф, 2011.
+          </div>
+        </div>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/puzakov-1.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Пособие по химии для поступающих в вузы. Вопросы, упражнения, задачи. Образцы экзаменационных билетов
+          </div>
+          <div class='textbook-authors'>
+            С.&nbsp;А.&nbsp;Пузаков, В.&nbsp;А.&nbsp;Попков М.: Высшая школа, 2011.
+          </div>
+        </div>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/chemistry_organic_tukavkina.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Органическая химия
+          </div>
+          <div class='textbook-authors'>
+            Под редакцией Н.&nbsp;А.&nbsp;Тюкавкиной. Москва: Медицина, 2002.
+          </div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='textbook col-md-4'>
+          <div class='textbook-cover'>
+            <img src='images/textbooks/chemistry_organic_osnovy.jpg'>
+          </div>
+          <div class='textbook-title'>
+            Основы органической химии
+          </div>
+          <div class='textbook-authors'>
+            Под редакцией Н.&nbsp;А.&nbsp;Тюкавкиной. Москва: Дрофа, 2006.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <h2>Адрес</h2>
+  <script charset='utf-8' src='//api-maps.yandex.ru/services/constructor/1.0/js/?sid=UCtvNeUBOYiML3gesCC9WQgK4yyjKT9B&amp;width=600&amp;height=450' type='text/javascript'></script>
+</div>
+
+  </body>
+</html>

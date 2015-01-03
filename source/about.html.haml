@@ -1,0 +1,195 @@
+---
+title: О классах
+---
+
+= partial "nav-about"
+
+.container-fluid
+  .container
+    #carousel-student-photos-container
+      #carousel-student-photos.carousel.slide{"data-ride" => "carousel"}
+        / Indicators
+        %ol.carousel-indicators
+          %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+          %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+          %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
+        / Wrapper for slides
+        .carousel-inner
+          .item.active
+            %img{:src => "images/carousel-1.jpg"}
+          .item
+            %img{:src => "images/carousel-2.jpg"}
+          .item
+            %img{:src => "images/carousel-3.jpg"}
+
+        / Controls
+        %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel-student-photos", :role => "button"}
+          %span.glyphicon.glyphicon-chevron-left
+        %a.right.carousel-control{"data-slide" => "next", :href => "#carousel-student-photos", :role => "button"}
+          %span.glyphicon.glyphicon-chevron-right
+
+
+.container
+  %h2 О классах
+  %p Вот уже без малого двадцать лет в нашей школе — одном из старейших образовательных учреждений Москвы, имеющих статус школы с углубленным изучением иностранного языка, — существуют медицинские классы: в 1995 году она стала официальным партнером Первого московского государственного медицинского университета имени И. М. Сеченова (в ту пору — Московской медицинской академии им. Сеченова). В рамках программы в школе формируются 8—9 классы ранней профилизации с углубленным изучением биологии и химии и 10—11 классы медико-биологического профиля. Обучение по биологии и химии в профильных классах ведется по программам и учебным пособиям, разработанным сотрудниками кафедр 1-го МГМУ им. Сеченова; университетские преподаватели читают лекции по биологии и химии и контролирует успеваемость каждого ученика. Количество учебных часов по профильным предметам увеличено, что позволяет уделять достаточно много времени и подготовке к сдаче Единого государственного экзамена, и профессиональной ориентации учащихся.
+
+  %hr
+  %h2 Учителя
+  .teachers-row.row
+    .teacher.col-md-3
+      .teacher-face
+        %img{:src => "images/teachers/azova-small.jpg", :class => "face"}
+      .teacher-intro
+        .teacher-intro-last-name
+          Азова
+        .teacher-intro-first-name
+          Наталия Львовна
+        .teacher-intro-subject
+          куратор профиля,
+          %br
+          учитель химии
+
+    .teacher.col-md-3
+      .teacher-face
+        %img{:src => "images/teachers/aigina-small.jpg", :class => "face"}
+      .teacher-intro
+        .teacher-intro-last-name
+          Аигина
+        .teacher-intro-first-name
+          Екатерина Вячеславовна
+        .teacher-intro-subject
+          учитель географии
+
+    .teacher.col-md-3
+      .teacher-face
+        %img{:src => "images/teachers/andreeva-small.jpg", :class => "face"}
+      .teacher-intro
+        .teacher-intro-last-name
+          Андреева
+        .teacher-intro-first-name
+          Ирина Юрьевна
+        .teacher-intro-subject
+          учитель русского языка
+          %br
+          и литературы
+
+    .teacher.col-md-3
+      .teacher-face
+        %img{:src => "images/teachers/artjuhovskaya-small.jpg", :class => "face"}
+      .teacher-intro
+        .teacher-intro-last-name
+          Артюховская
+        .teacher-intro-first-name
+          Инга Владимировна
+        .teacher-intro-subject
+          учитель русского языка
+          %br
+          и литературы
+
+  .teachers-row.row
+    .teacher.col-md-3
+      .teacher-face
+        %img{:src => "images/teachers/baranova-small.jpg", :class => "face"}
+      .teacher-intro
+        .teacher-intro-last-name
+          Баранова
+        .teacher-intro-first-name
+          Татьяна Аркадьевна
+        .teacher-intro-subject
+          учитель английского языка
+
+  %hr
+  %h2 Учебники
+  %ul#textbooks-menu.nav.nav-tabs.nav-justified{:role => "tablist"}
+    %li.active
+      %a{:href => "#"} Химия
+    %li
+      %a{:href => "#"} Биология
+    %li
+      %a{:href => "#"} Английский язык
+    %li
+      %a{:href => "#"} Математика
+    %li
+      %a{:href => "#"} Русский язык
+
+  #textbooks
+    #textbooks-chemistry
+      .row
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/programma8-11.jpg"}
+          .textbook-title
+            Программа курса химии для 8–11 классов общеобразовательных учреждений
+          .textbook-authors
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунин, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;И.&nbsp;Теренин. Москва: Дрофа, 2008
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/chimia8.jpg"}
+          .textbook-title
+            Химия 8 класс: учебник для общеобразовательных учреждений
+          .textbook-authors
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;В.&nbsp;Лунин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/chimia9.jpg"}
+          .textbook-title
+            Химия 9 класс: учебник для общеобразовательных учреждений
+          .textbook-authors
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;В.&nbsp;Лунин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+      .row
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/chimia10.jpg"}
+          .textbook-title
+            Химия 10 класс. Профильный уровень
+          .textbook-authors
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;И.&nbsp;Теренин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/chimia11.jpg"}
+          .textbook-title
+            Химия 11 класс. Профильный уровень
+          .textbook-authors
+            В.&nbsp;В.&nbsp;Еремин, Н.&nbsp;Е.&nbsp;Кузьменко, А.&nbsp;А.&nbsp;Дроздов, В.&nbsp;И.&nbsp;Теренин; под ред. Н.&nbsp;Е.&nbsp;Кузьменко, В.&nbsp;В.&nbsp;Лунина. Москва: Дрофа, 2012.
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/zadachnik-8.jpg"}
+          .textbook-title
+            Задачник по химии. 8 класс.
+          .textbook-authors
+            Н.&nbsp;Е.&nbsp;Кузнецова, А.&nbsp;Н.&nbsp;Левкин. Москва: Вентана-Граф, 2011.
+      .row
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/zadachnik-9.jpg"}
+          .textbook-title
+            Задачник по химии. 9 класс.
+          .textbook-authors
+            Н.&nbsp;Е.&nbsp;Кузнецова, А.&nbsp;Н.&nbsp;Левкин. Москва: Вентана-Граф, 2011.
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/puzakov-1.jpg"}
+          .textbook-title
+            Пособие по химии для поступающих в вузы. Вопросы, упражнения, задачи. Образцы экзаменационных билетов
+          .textbook-authors
+            С.&nbsp;А.&nbsp;Пузаков, В.&nbsp;А.&nbsp;Попков М.: Высшая школа, 2011.
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/chemistry_organic_tukavkina.jpg"}
+          .textbook-title
+            Органическая химия
+          .textbook-authors
+            Под редакцией Н.&nbsp;А.&nbsp;Тюкавкиной. Москва: Медицина, 2002.
+      .row
+        .textbook.col-md-4
+          .textbook-cover
+            %img{:src => "images/textbooks/chemistry_organic_osnovy.jpg"}
+          .textbook-title
+            Основы органической химии
+          .textbook-authors
+            Под редакцией Н.&nbsp;А.&nbsp;Тюкавкиной. Москва: Дрофа, 2006.
+
+  %hr
+  %h2 Адрес
+
+  %script{:charset => "utf-8", :src => "//api-maps.yandex.ru/services/constructor/1.0/js/?sid=UCtvNeUBOYiML3gesCC9WQgK4yyjKT9B&width=600&height=450", :type => "text/javascript"}
